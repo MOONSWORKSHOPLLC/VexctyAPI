@@ -13,7 +13,7 @@ add the dependency here:
 <br>
 Maven:
 <br>
-	<repositories>
+	<code><repositories>
 	<br>
 		<repository>
 			<br>
@@ -34,10 +34,11 @@ Maven:
 	    <version>1.0</version>
 	<br>
 	</dependency>
+	</code>
 	<br>
 Gradle:
 <br>
-	allprojects {
+	<code>allprojects {
 	<br>
 		repositories {
 		<br>
@@ -54,4 +55,5 @@ Gradle:
 	        implementation 'com.github.somerandomguythatneedshelp:VexctyAPI:1.0'
 		<br>
 	}
+	</code>
 	<br>
