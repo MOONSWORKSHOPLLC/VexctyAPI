@@ -4,6 +4,7 @@ if you want to set the player a language you do:
         vexcty.getLangManager().setLang(player.getUniqueId(), Lang.); after the period, put the language code of the lanuage
 if you want to get a players language, do:
         vexcty.getLangManager().getLang(player.getUniqueId(), Lang.); after the period, put the language code of the lanuage
+	<br>
         
 add the dependency here:
 Maven:
