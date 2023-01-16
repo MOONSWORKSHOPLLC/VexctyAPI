@@ -1,6 +1,6 @@
 Vexcty Public API (Java)
 ======
-[![Maven Package](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/actions/workflows/maven.yml/badge.svg)](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/actions/workflows/maven.yml)
+[![Maven Package](https://github.com/HypixelDev/PublicAPi/actions/workflows/maven.yml/badge.svg)](https://github.com/HypixelDev/PublicAPi/actions/workflows/maven.yml)
 
 This is a Java implementation of the Vexcty API. For discussing the API, requesting help or suggestions you can use the
 GitHub [Discussions](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/discussions).
