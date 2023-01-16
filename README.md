@@ -1,13 +1,13 @@
 Vexcty Public API (Java)
 ======
-[![Maven Package](https://github.com/HypixelDev/PublicAPI/actions/workflows/maven.yml/badge.svg)](https://github.com/HypixelDev/PublicAPI/actions/workflows/maven.yml)
+[![Maven Package](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/actions/workflows/maven.yml/badge.svg)](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/actions/workflows/maven.yml)
 
-This is a Java implementation of the Hypixel API. For discussing the API, requesting help or suggestions you can use the
-GitHub [Discussions](https://github.com/HypixelDev/PublicAPI/discussions).
+This is a Java implementation of the Vexcty API. For discussing the API, requesting help or suggestions you can use the
+GitHub [Discussions](https://github.com/MOONSWORKSHOPLLC/VexctyAPI/discussions).
 
 ### Documentation
 
-Hypixel Public API documentation can be found at [https://api.hypixel.net/](https://api.hypixel.net/). Java
+Vexcty Public API documentation can be found at [https://vexcty.com/api](https://vexcty.com/api). Java
 documentation can be found in the code.
 
 ### GitHub Issues
