@@ -1,4 +1,4 @@
-Hypixel Public API (Java)
+Vexcty Public API (Java)
 ======
 [![Maven Package](https://github.com/HypixelDev/PublicAPI/actions/workflows/maven.yml/badge.svg)](https://github.com/HypixelDev/PublicAPI/actions/workflows/maven.yml)
 
@@ -12,50 +12,44 @@ documentation can be found in the code.
 
 ### GitHub Issues
 
-GitHub issues should only be used to report bugs. Everything else should either be in GitHub discussions or use the
-Hypixel [Code Creations](https://hypixel.net/forums/code-creations.65/) forum.
+GitHub issues should only be used to report bugs. Everything else should be in GitHub discussions.
 
 ### Usage
 
-You can use this API as a dependency via the public Hypixel maven repo. You can also use
-the [Example Code](https://github.com/HypixelDev/PublicAPI/tree/master/hypixel-api-example) as a good starting point.
-
-#### Hypixel Maven Repo
+You can use this API as a dependency via the public Vexcty maven repo.
+#### Vexcty Maven Repo
 
 ```xml
 
-<repository>
-    <id>Hypixel</id>
-    <url>https://repo.hypixel.net/repository/Hypixel/</url>
-</repository>
+
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+
+
+	<dependency>
+	    <groupId>com.github.somerandomguythatneedshelp</groupId>
+	    <artifactId>VexctyAPI</artifactId>
+	    <version>Tag</version>
+	</dependency>
 ```
 
 This repo can also be used with Gradle.
 
 ```gradle
-repositories {
-    maven { url 'https://repo.hypixel.net/repository/Hypixel/' }
-}
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+   	dependencies {
+	        implementation 'com.github.somerandomguythatneedshelp:VexctyAPI:Tag'
+	} 
 ```
-
-#### Transports
-
-We include three built-in options for communicating with the Hypixel API, you can include either of these or even
-include the core API directly and create your own instance of HypixelHTTPClient.
-
-* [Apache HttpClient Transport](hypixel-api-transport-apache/README.md)
-* [Unirest Java Transport](hypixel-api-transport-unirest/README.md)
-* [Project Reactor Transport](hypixel-api-transport-reactor/README.md) (automatic rate-limiting by default)
-
-### Dependencies
-
-The Hypixel API Core implementation has the following dependencies:
-
-* [Google Gson library - 2.9.0](https://mvnrepository.com/artifact/com.google.code.gson/gson)
-
-Transports will also have dependencies where required.
 
 ### Contributing
 
-When contributing changes to the Java API please provide as much detail on the changes and the reasons for them. We will
-not accept changes that have no meaningful contribution to the project.
+When Contributing, please make a pull request on Github and will try to get back as fast as possible.
