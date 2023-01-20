@@ -56,14 +56,14 @@ When Contributing, please make a pull request on Github and will try to get back
 
 ### Dependencies
 
-The Vexcty API Uses the following dependencies:
-
-com.google.code.gson:gson
-com.google.guava:guava
-com.googlecode.json-simple:json-simple
-commons-lang:commons-lang
-junit:junit
-net.md-5:bungeecode-chat
-org.hamcrest:hamcrest-core
-org.spigotmc:spigot-api
-org.yaml:snakeyaml
+The Vexcty API Uses the following dependencies: <br>
+<br>
+com.google.code.gson:gson<br>
+com.google.guava:guava<br>
+com.googlecode.json-simple:json-simple<br>
+commons-lang:commons-lang<br>
+junit:junit<br>
+net.md-5:bungeecode-chat<br>
+org.hamcrest:hamcrest-core<br>
+org.spigotmc:spigot-api<br>
+org.yaml:snakeyaml<br>
