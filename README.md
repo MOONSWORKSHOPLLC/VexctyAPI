@@ -53,3 +53,17 @@ This repo can also be used with Gradle.
 ### Contributing
 
 When Contributing, please make a pull request on Github and will try to get back as fast as possible.
+
+### Dependencies
+
+The Vexcty API Uses the following dependencies:
+
+com.google.code.gson:gson
+com.google.guava:guava
+com.googlecode.json-simple:json-simple
+commons-lang:commons-lang
+junit:junit
+net.md-5:bungeecode-chat
+org.hamcrest:hamcrest-core
+org.spigotmc:spigot-api
+org.yaml:snakeyaml
